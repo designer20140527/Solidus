@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## ⚡ Hydration Error Fix
+
+This project includes an automatic fix for common Next.js hydration errors caused by browser extensions.
+
+### Quick Fix
+If you encounter hydration errors, run:
+```bash
+npm run fix-hydration
+```
+
+### Manual Fix
+The fix adds `suppressHydrationWarning={true}` to the `<body>` tag in `layout.tsx` to prevent browser extension interference.
+
+For more details, see `HYDRATION-FIX-README.md`.
+
 ## Getting Started
 
 First, run the development server:
