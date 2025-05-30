@@ -19,7 +19,7 @@ const Footer = () => {
   ];
 
   const resourceLinks: FooterLink[] = [
-    { label: 'Gitbook', href: '#' }
+    { label: 'Gitbook', href: 'https://docs.solidustoken.xyz/', target: '_blank' }
   ];
 
   return (

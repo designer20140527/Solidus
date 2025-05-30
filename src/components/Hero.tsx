@@ -18,9 +18,14 @@ const Hero = () => {
             yields from funding rates and protocol revenue, redefining the value of stablecoins 
             in decentralized finance.
           </p>
-          <button className="hero-button">
+          <a 
+            href="https://docs.solidustoken.xyz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-button"
+          >
             Gitbook
-          </button>
+          </a>
         </div>
 
         {/* 右侧图片容器 */}
