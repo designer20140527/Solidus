@@ -16,9 +16,9 @@ const SolidTokenomics = () => {
   }, []);
 
   const allocations = [
-    { label: 'Liquidity', percentage: 50, color: 'rgba(173, 95, 20, 0.3)' },
-    { label: 'Community & Incentives', percentage: 30, color: 'rgba(237, 175, 53, 0.4)' },
-    { label: 'Ecosystem Development', percentage: 10, color: 'rgba(226, 159, 24, 0.4)' },
+    { label: 'Liquidity', percentage: 70, color: 'rgba(173, 95, 20, 0.3)' },
+    { label: 'Community & Incentives', percentage: 20, color: 'rgba(237, 175, 53, 0.4)' },
+    { label: 'Ecosystem Development', percentage: 5, color: 'rgba(226, 159, 24, 0.4)' },
     { label: 'Team', percentage: 5, color: 'rgba(212, 160, 23, 0.4)' }
   ];
 
