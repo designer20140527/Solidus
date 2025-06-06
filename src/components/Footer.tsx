@@ -14,8 +14,8 @@ const Footer = () => {
   const communityLinks: FooterLink[] = [
     { label: 'Twitter', href: 'https://x.com/Solidus_Token', target: '_blank' },
     { label: 'Telegram', href: 'https://t.me/Solidus_Official', target: '_blank' },
-    { label: 'DEXtools', href: 'https://dexscreener.com/solana/EG4iar96FkhfnAa7UQbkBARwDCU8hyncd2igEqifQhqA', target: '_blank' },
-    { label: 'DEX Screener', href: 'https://www.dextools.io/app/en/solana/pair-explorer/EG4iar96FkhfnAa7UQbkBARwDCU8hyncd2igEqifQhqA?t=1749182596123', target: '_blank' }
+    { label: 'DEXtools', href: 'https://www.dextools.io/app/en/solana/pair-explorer/EG4iar96FkhfnAa7UQbkBARwDCU8hyncd2igEqifQhqA?t=1749182596123', target: '_blank' },
+    { label: 'DEX Screener', href: 'https://dexscreener.com/solana/EG4iar96FkhfnAa7UQbkBARwDCU8hyncd2igEqifQhqA', target: '_blank' }
   ];
 
   const resourceLinks: FooterLink[] = [
